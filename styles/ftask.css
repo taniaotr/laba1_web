@@ -1,0 +1,28 @@
+.first_title {
+    font-size: 32px;
+    font-family: inherit;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.first_input {
+    width: 356px;
+    height: 50px;
+    background-color: #b2d1dA;
+    border: black solid;
+    
+}
+
+.first_button {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #f4d8a3;
+    border: black solid;
+}
+
+.first_content {
+    display: flex;
+    justify-content: center;
+    column-gap: 111px;
+}

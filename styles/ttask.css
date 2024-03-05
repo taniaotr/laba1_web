@@ -1,0 +1,46 @@
+.third_task {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding-top: 70px;
+}
+
+.third_container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #b2d1dA   ;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.third_text {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.third_button {
+    background-color: #f4d8a3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.third_button:hover {
+    background-color: #b2d1dA;   
+}
+
+.third_result {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #333;
+}

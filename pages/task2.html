@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laba 1</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/stask.css">
+    <script src="/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <div class="page_content">
+        <div class="page_menu">
+            <nav class="nav menu_nav">
+                <ul class="menu_list">
+                    <li class="menu_item" id="click">
+                        <div class="menu_click">
+                            Click
+                            <img src="/nain.jpg" class="main_image">
+                          </div>
+                    </li>
+                    <li class="menu_item">
+                        <a 
+                            href="task1.html"               class="menu_link"
+                        >
+                            Task 1
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a 
+                            href="task2.html"               class="menu_link"
+                            id="now"
+                        >
+                            Task 2
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a 
+                            href="task3.html"               class="menu_link"
+                        >
+                            Task 3
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="second_task">
+        <div class="second_content">
+            <h2>Random Password Generator</h2>
+            <label for="lengthInput">
+                Enter password length:
+            </label>
+            <input 
+                type="number" 
+                class="second_input" 
+                min="1" 
+                value="12" 
+                id="lengthInput"
+                onkeydown="handleKeyDown(event)"
+            >
+
+            <p class="second_pass" id="generatedPassword"></p>
+            <button 
+                class="second_button" 
+                onclick="generatePassword()"
+            >
+                Generate Password
+            </button>
+        </div>
+    </div>
+</body>
+</html>

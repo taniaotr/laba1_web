@@ -1,0 +1,74 @@
+.page {
+    background-color: #e6d5d7;
+    font-family: 'Holtwood One SC', serif;
+}
+
+.page_content {
+    display: flex;
+    justify-content: center;
+}
+
+.page_menu {
+    background-color: #fAf3eb;
+    width: 1004px;
+    height: 117px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 50px;
+}
+
+.menu_list {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: black;
+}
+
+#now {
+    color:aqua;
+}
+
+.menu_item:not(:first-child) {
+    margin-left: 140px;
+}
+
+.page_img {
+    height: 157px;
+    width: 157px;
+    padding-top: 180px;
+}
+
+.page_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.menu_click {
+    position: relative;
+    display: inline-block;
+}
+  
+.main_image {
+    visibility: hidden;
+    width: 520px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+  
+    
+    position: absolute;
+    z-index: 1;
+}
+  
+.menu_click:hover .main_image {
+    visibility: visible;
+}
